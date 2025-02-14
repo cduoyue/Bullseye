@@ -43,6 +43,7 @@ struct InstructionView: View {
                 .padding(.horizontal, 30)
             
             BigNumberText(text: String(game.target))
+                .padding()
         }
     }
 }

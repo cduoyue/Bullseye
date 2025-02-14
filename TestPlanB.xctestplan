@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "CAA2C144-106E-4A48-85AC-656DA48A44B9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BullseyeTests\/testLeaderboard()",
+        "BullseyeTests\/testNewRound()",
+        "BullseyeTests\/testRestart()"
+      ],
+      "target" : {
+        "containerPath" : "container:Bullseye.xcodeproj",
+        "identifier" : "909E91672D2E5804001D8D0A",
+        "name" : "BullseyeTests"
+      }
+    }
+  ],
+  "version" : 1
+}
